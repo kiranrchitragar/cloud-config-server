@@ -22,4 +22,17 @@ build:
   id: 001
   name: Build_EComm
 
+## Enable @Refresh Scope
+management: 
+  endpoints: 
+    web: 
+      exposure: 
+        include: refresh
+        
+## Dummy value to test @Refresh Scope 
+embarkx:
+  check: 
+    refreshScope: 
+      value : 1
+
 
