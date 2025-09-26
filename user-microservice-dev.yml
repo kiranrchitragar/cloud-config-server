@@ -24,4 +24,4 @@ management:
 embarkx:
   check: 
     refreshScope: 
-      value : 1
+      value : 2
