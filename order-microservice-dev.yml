@@ -23,10 +23,9 @@ management:
     web: 
       exposure: 
         include: "*"
-  ## ZipKin Properties
   tracing: 
     sampling: 
-      probability: 1.0 ## ALl the request are traced, 1.0=100%
+      probability: 1.0
         
 ## this property is just to demo for @ConfigurationProperties
 build:
