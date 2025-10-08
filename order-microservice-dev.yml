@@ -40,7 +40,12 @@ eureka:
 logging: 
   level: 
     root: INFO
-  file: logs/order-microservice.log
+  file: 
+    name: logs/order-microservice.log
+  logback:
+    rollingpolicy: 
+      max-file-size: 5MB
+      max-history: 7 ## keep logs for 7 days
   
 ## Dummy value to test @Refresh Scope 
 embarkx:
