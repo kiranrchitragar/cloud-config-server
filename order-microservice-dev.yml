@@ -28,13 +28,7 @@ management:
 build:
   id: 001
   name: Build_EComm
-
-## Enable @Refresh Scope
-management: 
-  endpoints: 
-    web: 
-      exposure: 
-        include: refresh
+  
 eureka: 
   client: 
     serviceUrl: 
