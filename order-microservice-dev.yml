@@ -17,6 +17,13 @@ spring:
 server:
   port: 8083
 
+## Actuator expose all end points
+management:
+  endpoints: 
+    web: 
+      exposure: 
+        include: "*"
+        
 ## this property is just to demo for @ConfigurationProperties
 build:
   id: 001
