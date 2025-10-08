@@ -39,7 +39,7 @@ eureka:
 logging: 
   level: 
     root: INFO
-  file: logs/order-microservice.log
+  file: logs/product-microservice.log
   
 ## Dummy value to test @Refresh Scope 
 embarkx:
