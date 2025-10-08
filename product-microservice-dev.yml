@@ -20,13 +20,13 @@ build:
   id: 001
   name: Build_EComm
 
-## Enable @Refresh Scope
-management: 
+## Actuator expose all end points
+management:
   endpoints: 
     web: 
       exposure: 
-        include: refresh
-
+        include: "*"
+        
 eureka: 
   client: 
     serviceUrl: 
