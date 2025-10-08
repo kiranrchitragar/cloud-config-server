@@ -23,6 +23,10 @@ management:
     web: 
       exposure: 
         include: "*"
+  ## ZipKin Properties
+  tracing: 
+    sampling: 
+      probability: 1.0 ## ALl the request are traced, 1.0=100%
         
 ## this property is just to demo for @ConfigurationProperties
 build:
@@ -47,7 +51,7 @@ logging:
     rollingpolicy: 
       max-file-size: 5MB
       max-history: 7 ## keep logs for 7 days
-  
+
 ## Dummy value to test @Refresh Scope 
 embarkx:
   check: 
