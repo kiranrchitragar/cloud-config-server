@@ -36,7 +36,12 @@ eureka:
     fetch-registry: true
   instance: 
     instance-id: localhost:${spring.application.name}:${server.port}
-        
+
+logging: 
+  level: 
+    root: INFO
+  file: logs/order-microservice.log
+  
 ## Dummy value to test @Refresh Scope 
 embarkx:
   check: 
