@@ -1,6 +1,7 @@
 spring:
   application:
     name: gateway-microservice
+    # We can also use Java based routes, like its mentioned in GatewayConfig.Java. Either 1 can be used.
   cloud:
     gateway:
       server:
