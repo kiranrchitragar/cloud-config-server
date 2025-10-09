@@ -44,7 +44,16 @@ management:
   tracing: 
     sampling: 
       probability: 1.0
-
+logging: 
+  level: 
+    root: INFO
+  file: 
+    name: logs/order-microservice.log
+  logback:
+    rollingpolicy: 
+      max-file-size: 5MB
+      max-history: 7 ## keep logs for 7 days
+      
 eureka: 
   client: 
     serviceUrl: 
