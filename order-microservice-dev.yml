@@ -18,8 +18,8 @@ server:
   port: 8083
 
 #Test Rate Limiting
-app: 
-  message: "Hello Order Service..!!"
+app:
+  message: "Hello Order!"
   
 ## Actuator expose all end points
 management:
