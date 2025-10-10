@@ -19,7 +19,8 @@ server:
 
 #Test Rate Limiting
 app: 
-  message: Hello Order Service
+  message: "Hello Order Service..!!"
+  
 ## Actuator expose all end points
 management:
   endpoints: 
