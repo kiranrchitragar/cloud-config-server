@@ -23,7 +23,7 @@ server:
   port: 8083
 
 # RAbbit MQ properties
-rabbitmq:
+rabbitMq:
   exchange: 
     name: order.exchange
   queue: 
