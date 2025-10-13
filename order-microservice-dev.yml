@@ -6,6 +6,11 @@ spring:
     username: embarkx
     password: embarkx
     driver-class-name: com.mysql.cj.jdbc.Driver
+  rabbitmq: 
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
   jpa:
     show-sql: true
     hibernate:
@@ -17,6 +22,15 @@ spring:
 server:
   port: 8083
 
+# RAbbit MQ properties
+rabbitmq:
+  exchange: 
+    name: order.exchange
+  queue: 
+    name: order.queue
+  routing: 
+    key: order.tracking
+    
 #Test Rate Limiting
 app:
   message: "Hello Order!"
