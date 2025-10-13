@@ -1,3 +1,6 @@
 spring:
   application:
     name: notification-microservice
+
+server:
+  port: 8084
