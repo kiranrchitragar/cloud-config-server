@@ -70,6 +70,8 @@ eureka:
 logging: 
   level: 
     root: INFO
+    org.springframework.amqp.rabbit.connection: DEBUG
+    org.springframework.amqp.rabbit.core.RabbitAdmin: DEBUG
   file: 
     name: logs/order-microservice.log
   logback:
